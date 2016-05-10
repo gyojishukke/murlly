@@ -2,8 +2,12 @@ html, body {
 	font-family: Consolas, monaco, monospace;
 	background-color: #272822;
 	color: #F8F8F2;
+	width: 100%;
 }
-
+header {
+	background: #afafaf;
+	width: 100%;
+}
 .container {
 	margin: 50px;
 }
