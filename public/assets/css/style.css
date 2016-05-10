@@ -12,11 +12,12 @@ body {
 
 	background-color: rgba(39, 40 , 34, 0.7);
 	border-radius: 15px;
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);
 }
 
 html {
 	margin: 0;
-	background-image: url(../img/IMG_1771.JPG);
+	background-image: url(../img/trametissee.JPG);
 }
 
 header {
@@ -50,10 +51,10 @@ h2 {
 }
 
 input:focus {
-	background: #f4ff81;
+	background: #4db6ac;
 /*	border: 2px solid orange;*/
 }
 
-button:hover {
+/*button:hover {
 	border: 5px solid #fafafa;
-}
+}*/
