@@ -17,7 +17,7 @@
 
 <div class="container">
 		<header>
-			<h1>www-]MURL.ly[-www</h1>
+			<h1><span>www-]</span>MURL.ly<span>[-www</span></h1>
 			<p>RaccourcisseURL</p>
 			<h2><?= $this->e($title) ?></h2>
 		</header>

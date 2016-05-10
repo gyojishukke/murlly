@@ -42,7 +42,8 @@ class DefaultController extends Controller
 		$this->show('default/liste', ['urlshort', 'urllong']);
 		// public function findAll($orderBy = "", $orderDir = "ASC", $limit = null, $offset = null)
 
-
+		// public function find($id)
+		
 		// $this->show('default/liste');
 	}
 

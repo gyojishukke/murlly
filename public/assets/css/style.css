@@ -1,11 +1,19 @@
 html, body {
 	font-family: Consolas, monaco, monospace;
-	background-color: #272822;
+/*	background-color: #272822;*/
+	background-color: none;
 	color: #F8F8F2;
 	width: 100%;
 }
+body {
+	background-color: #272822;
+}
+
+html {
+	background: url(../img/IMG_1771.JPG);
+}
 header {
-	background: #afafaf;
+/*	background: #272822;*/
 	width: 100%;
 }
 .container {
@@ -22,9 +30,21 @@ a:hover {
 }
 
 h1 {
-	color: #F92672;
+	color: #fafafa;
 }
 
+h1 span {
+	color: gray;
+}
 h2 {
 	color: #66D9EF;
+}
+
+input:focus {
+	background: #f4ff81;
+/*	border: 2px solid orange;*/
+}
+
+button:hover {
+	border: 5px solid #fafafa;
 }
