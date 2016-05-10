@@ -3,19 +3,27 @@ html, body {
 /*	background-color: #272822;*/
 	background-color: none;
 	color: #F8F8F2;
-	width: 100%;
+    width: 100%;
+    padding: 0 20px;
 }
+
 body {
-	background-color: #272822;
+	margin: 0 auto;
+
+	background-color: rgba(39, 40 , 34, 0.7);
+	border-radius: 15px;
 }
 
 html {
-	background: url(../img/IMG_1771.JPG);
+	margin: 0;
+	background-image: url(../img/IMG_1771.JPG);
 }
+
 header {
 /*	background: #272822;*/
 	width: 100%;
 }
+
 .container {
 	margin: 50px;
 }
@@ -36,6 +44,7 @@ h1 {
 h1 span {
 	color: gray;
 }
+
 h2 {
 	color: #66D9EF;
 }
