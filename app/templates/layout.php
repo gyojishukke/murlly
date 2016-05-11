@@ -21,19 +21,23 @@
 			<p>RaccourcisseURL</p>
 			<h2><?= $this->e($title) ?></h2>
 		</header>
-<!-- 
-		<section>
-			<?= $this->section('main_content') ?>
-		</section>
 
-		<section>
-			<?= $this->section('side_content') ?>
-		</section> -->
+
 
    <main class="wrapper">
-       <section class="content">
-           <h2>Liste des url</h2>
+
+
+       	<section class="content">
+
+           	<h2>URL à réduire</h2>
+
 			<?= $this->section('main_content') ?>
+
+			<?= $this->section('side_content') ?>
+
+
+
+
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nisi iusto, quis aspernatur numquam quas illo vitae provident, reiciendis neque quam placeat harum quae rerum hic ratione expedita vel, corrupti.</p>
        </section>
 
@@ -46,8 +50,10 @@
        </nav>
        
        <aside>
-           <h2>Aside</h2>
-<!--    			<?= $this->section('side_content') ?> -->
+           <h2>Liste des url</h2>
+
+			<?= $this->section('side_content') ?>
+
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione quis, consequatur quas nemo numquam excepturi nihil veniam, dolor eum dignissimos. Ipsam, non consectetur voluptatem quasi odit eos dolore ex!</p>
        </aside>
   </main>

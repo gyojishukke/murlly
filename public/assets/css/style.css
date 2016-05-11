@@ -20,6 +20,8 @@ body {
     flex-direction:column;
     font-family: helvetica;
     font-weight: 200;
+
+
 /*=======*/
 }
 
@@ -73,7 +75,8 @@ h2 {
 }
 
 input:focus {
-	background: #4db6ac;
+	background: #d8d24d;
+/*	background: #4db6ac;*/
 /*	border: 2px solid orange;*/
 }
 
@@ -82,15 +85,7 @@ input:focus {
 }*/
 
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 
-
-    font-family: helvetica;
-    font-weight: 200; 
-}
 
 main {
     display: flex;
@@ -115,7 +110,7 @@ h1 {
 }
 
 section {
-    background: #a8a6a6;
+    background: rgba(181,181,179, 0.9);
     color: #fff;
     border-radius: 5px;
     margin: 0 0.5rem;
@@ -133,19 +128,25 @@ footer {
 }
 
 aside {
-    background: #766666;
+    background: rgba(118,102,102, 0.9);
     color: #fff;
     border-radius: 5px;
     text-align: justify;
+
+    width: 20em;
+    padding: 0.5rem;
 }
+
 nav {
-    background: #d8d24d;
+    background: rgba(153,182,189, 0.9);
     color: #fff;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     order: -1;
 /*    justify-content: space-between;*/
+    width: 10em;
+    padding: 0.5rem;
 
 }
 
@@ -155,15 +156,13 @@ nav a {
     text-decoration: none;
     border-bottom: solid 1px #fff;
 }
-nav,
-aside {
-    width: 15em;
-    padding: 0.5rem;
-}
+
 
 .content {
     flex:1;
 }
+
+/*===============MEDIA QUERIES=========*/
 
 @media (max-width: 640px) {
     main {

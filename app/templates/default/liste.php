@@ -21,5 +21,5 @@
 
 
 <?php $this->start('side_content') ?>
-	<strong>Liste</strong>
+
 <?php $this->stop('side_content') ?>
