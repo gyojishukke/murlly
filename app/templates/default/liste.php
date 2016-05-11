@@ -1,25 +1,25 @@
-<?php $this->layout('layout', ['title' => 'liste']) ?>
-
-
+<?php $this->layout('layout', ['title' => 'Accueil']) ?>
 
 <?php $this->start('main_content') ?>
+<h2>Liste de mes Url...</h2>
+<ul>
 
+<?php
+  
+?>
+<?php foreach ($urlAll as $key =>$url)
+{ 
+?>  
+        <li>
+          <a href="<?=  $url['urlshort'] ?>" >Url short:</a><?= $url['urlshort'] ;?> 
+        </li> 
+   
+        <li>
+          <a href="<?=  $url['urllong'] ?>" >Url long:</a><?= $url['urllong'] ;?> 
+        </li> 
+<?php } ?>
 
-
-	<h2>Liste des url<?= $user['username'] ?></h2>
-	<ul>
-	<?php foreach ($posts as $post) { ?>
-		<li>
-			<a href="<?= $this->url('post', ['id' => $post['id']]) ?>">
-				<?= $this->e($post['titre']) ?>
-			</a>
-		</li>
-	<?php } ?>
-	</ul>
+</ul>
 <?php $this->stop('main_content') ?>
+<!-- // if(filter_var($url, FILTER_VALIDATE_ULR) ===FALSE) -->
 
-
-
-<?php $this->start('side_content') ?>
-
-<?php $this->stop('side_content') ?>
