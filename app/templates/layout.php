@@ -14,23 +14,46 @@
 <body>
 
 
-
-<div class="container">
+<!-- 
+<div class="container"> -->
 		<header>
 			<h1><span>www-]</span>MURL.ly<span>[-www</span></h1>
 			<p>RaccourcisseURL</p>
 			<h2><?= $this->e($title) ?></h2>
 		</header>
-
+<!-- 
 		<section>
 			<?= $this->section('main_content') ?>
 		</section>
 
 		<section>
 			<?= $this->section('side_content') ?>
-		</section>
+		</section> -->
+
+   <main class="wrapper">
+       <section class="content">
+           <h2>Liste des url</h2>
+			<?= $this->section('main_content') ?>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nisi iusto, quis aspernatur numquam quas illo vitae provident, reiciendis neque quam placeat harum quae rerum hic ratione expedita vel, corrupti.</p>
+       </section>
+
+       <nav id="navigation">
+           <a href="#">Liste</a>
+           <a href="#">Login</a>
+           <a href="#">Inscription</a>
+           <a href="#">FAQ</a>
+<!--            <a href="#">Picon bière</a> -->
+       </nav>
+       
+       <aside>
+           <h2>Aside</h2>
+<!--    			<?= $this->section('side_content') ?> -->
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione quis, consequatur quas nemo numquam excepturi nihil veniam, dolor eum dignissimos. Ipsam, non consectetur voluptatem quasi odit eos dolore ex!</p>
+       </aside>
+  </main>
 
 		<footer>
+		&copy; Yvan Le Brigand / thierry mézenge | WEBFORCE3
 		</footer>
 	</div>
 	

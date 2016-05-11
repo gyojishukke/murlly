@@ -3,11 +3,7 @@
 
 
 <?php $this->start('main_content') ?>
-<nav>
-  <li>a</li>
-    <li>a</li>
-      <li>a</li>
-</nav>
+
 
 <!-- <p>Et maintenant, RTFM dans <strong><a href="../docs/tuto/" title="Documentation de W">docs/tuto</a></strong>.</p> -->
 <!-- include -->
@@ -36,7 +32,7 @@
   
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-     <button type="submit" class="btn btn-primary" name="submit">Valider</button>
+     <button type="submit" class="btn " name="submit">Valider</button>
     </div>
   </div>
 </form>

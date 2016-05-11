@@ -2,7 +2,7 @@ html, body {
 	font-family: Consolas, monaco, monospace;
 /*	background-color: #272822;*/
 
-	color: #F8F8F2;
+
     width: 100%;
     padding: 0 20px;
 }
@@ -10,9 +10,17 @@ html, body {
 body {
 	margin: 0 auto;
 
-	background-color: rgba(39, 40 , 34, 0.7);
+	background-color: rgba(39, 40 , 34, 0.1);
 	border-radius: 15px;
 	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);
+
+/*=========*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    font-family: helvetica;
+    font-weight: 200;
+/*=======*/
 }
 
 html {
@@ -22,13 +30,27 @@ html {
 
 header {
 /*	background: #272822;*/
-	width: 100%;
+/*	width: 100%;*/
+
+	/*==========*/
+    background: #3f3fc1;
+    color: #fff;
+    border-radius: 5px;
+/*=========================*/
+
 }
 
+/*==================*/
+main {
+    flex: 1 1 auto;
+}
+/*=======================*/
+
+/*
 .container {
 	margin: 50px;
 }
-
+*/
 a {
 	text-decoration: none;
 	color: #A6E22E;
@@ -58,3 +80,114 @@ input:focus {
 /*button:hover {
 	border: 5px solid #fafafa;
 }*/
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+    font-family: helvetica;
+    font-weight: 200; 
+}
+
+main {
+    display: flex;
+    flex: 1 1 auto;
+    
+}
+
+
+header {
+    background: #555353;
+    color: #fff;
+    border-radius: 5px;
+/*    margin: auto;*/
+    padding: 1rem;
+    text-align: center;
+/*    justify-content: center;*/
+/*    margin: auto;*/
+    margin-bottom: 0.5rem;
+}
+h1 {
+    font-weight: 200;
+}
+
+section {
+    background: #a8a6a6;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    padding: .5rem;;
+    text-align: justify;
+}
+
+footer {
+    background: #555353;
+    color: #fff;
+    border-radius: 5px; 
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+aside {
+    background: #766666;
+    color: #fff;
+    border-radius: 5px;
+    text-align: justify;
+}
+nav {
+    background: #d8d24d;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    order: -1;
+/*    justify-content: space-between;*/
+
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: solid 1px #fff;
+}
+nav,
+aside {
+    width: 15em;
+    padding: 0.5rem;
+}
+
+.content {
+    flex:1;
+}
+
+@media (max-width: 640px) {
+    main {
+        flex-direction: column;
+    }
+    section {
+        margin: 0;
+    }
+    nav,
+    aside {
+        width: auto;
+    }
+    header {
+        margin: 20px 0;
+    }
+    aside {
+        margin: .5rem 0;
+    }
+    .content {
+        flex-basis: auto;
+        margin-bottom: 20px;
+    }
+    nav {
+        order: 1;
+        align-items: center;
+    }
+}
